@@ -47,6 +47,14 @@ export default class ProductsNavbar extends Component<ProductsNavbarProps> {
             <option value="Z-A">Name (Z-A)</option>
           </select>
         </div>
+        <div className="cart">
+          <div className="avatar">
+            <i className="fa-solid fa-user"></i>
+          </div>
+          <div className="basket">
+            <i className="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
       </div>
     );
   }

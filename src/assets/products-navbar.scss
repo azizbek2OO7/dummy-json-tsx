@@ -1,18 +1,18 @@
 .products-navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 34px;
+  // justify-content: space-between;
+  gap: 40px;
   margin-bottom: 30px;
   .line {
     border-bottom: 1px solid #617d98;
-    width: 530px;
+    width: 430px;
   }
 
   .found-product {
     color: #324d67;
     font-size: 18px;
-    width: 169px;
+    // width: 169px;
   }
 
   .lists {
@@ -56,5 +56,23 @@
   .sorts {
     display: flex;
     gap: 10px;
+  }
+
+  .cart {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .avatar,
+    .basket i {
+      font-size: 25px;
+      cursor: pointer;
+      transition: 0.1s linear;
+    }
+
+    .avatar:hover,
+    .basket:hover {
+      color: blue;
+    }
   }
 }
